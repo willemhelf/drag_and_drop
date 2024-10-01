@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url('../dress-up_pngs/vivis_room/vivis-room_back.png');
+    background-repeat: no-repeat;
+    background-size: 4000 auto;
+    background-position: center top -38px;
+}
+
+canvas {
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+    margin: 0;
+    background-image: url('../dress-up_pngs/vivis_room/vivis-room_back.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 400 auto;
+    background-position: center center;
+   }
+   canvas {
+    position: absolute;
+   }
+}
