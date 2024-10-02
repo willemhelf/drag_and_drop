@@ -33,7 +33,6 @@ function imageResize() {
       images[i].width = images[i].width / 2
       images[i].height = images[i].height / 2
       console.log(images[i].height)
-      // 
   }
 }
 
